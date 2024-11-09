@@ -58,7 +58,7 @@ app.get("/", (req,res) => {
 
 
 const store = MongoStore.create({
-    mongoUrl:dbUrl,
+    mongoUrl: dbURL,
     crypto: {
         secret: process.env.SECRET,
       },
